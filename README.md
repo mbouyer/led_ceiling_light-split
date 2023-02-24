@@ -1,2 +1,2 @@
 # led_ceiling_light-split
-a LED light with split power and led strip
+Plafonier à LEDs 12V pour bateau, avec 2 puissances (puissance réduite en navigation). Version en deux parties de led_ceiling_light
