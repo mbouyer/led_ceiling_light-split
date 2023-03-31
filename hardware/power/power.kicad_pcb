@@ -54,7 +54,7 @@
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x0000088_7ffffffe)
-      (disableapertmacros true)
+      (disableapertmacros false)
       (usegerberextensions false)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
@@ -945,7 +945,7 @@
   (gr_arc (start 67.791471 114.492043) (mid 69.91279 115.370723) (end 70.791471 117.492043) (layer "Edge.Cuts") (width 0.09) (tstamp 9d288153-5ad0-4f55-829a-10bb74763a44))
   (gr_line (start 65.541471 86.742043) (end 132.291471 86.742043) (layer "Edge.Cuts") (width 0.09) (tstamp a2e0fb1b-dfdc-40c0-aaf0-435d2e35d771))
   (gr_line (start 138.541471 92.992043) (end 138.541471 119.742043) (layer "Edge.Cuts") (width 0.09) (tstamp cdae8baa-2a2b-4abd-b852-56cd191d13d6))
-  (gr_rect (start 154 126) (end 49 82) (layer "User.1") (width 0.1) (fill none) (tstamp e1780906-456b-4363-8547-cff0cfea5ee6))
+  (gr_rect (start 154 126) (end 49 82) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp e1780906-456b-4363-8547-cff0cfea5ee6))
 
   (segment (start 89.408 99.592) (end 89.408 104.013) (width 0.6) (layer "F.Cu") (net 1) (tstamp 0919c166-226c-4c51-b03e-99ddabb0d5d1))
   (segment (start 78.613 104.648) (end 69.552 104.648) (width 1.2) (layer "F.Cu") (net 1) (tstamp 0cb8fd40-a224-47af-be10-0ae687fe3266))
