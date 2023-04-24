@@ -25,10 +25,18 @@ module plug(l_i = 10, l_e = 10) {
 	}
 }
 
+module cable_hole() {
+	cylinder(d = 3.2, h = 21, center=false);
+	translate([-3.2/2, -3.2, 0]) cube(size=[3.2,3.2,21], center=false);
+}
+
 difference() {
 	plug();
 	translate([10, -2, -5]) rotate([-90, 0, 0])
 	    cylinder(d = 3.2, h = 20, center=false);
 	translate([10, 6.3 - 1, -5]) rotate([-90, 0, 0])
 	    cylinder(d = 6, h = 20, center=false);
+	translate([5.5,3.2/2,-20]) cable_hole();
+
 }
+
